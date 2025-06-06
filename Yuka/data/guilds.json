@@ -1,0 +1,22 @@
+{
+  "YOUR_GUILD_ID_1": {
+    "welcomeChannelId": "CHANNEL_ID_FOR_WELCOME_1",
+    "goodbyeChannelId": "CHANNEL_ID_FOR_GOODBYE_1",
+    "logChannelId": "CHANNEL_ID_FOR_LOGS_1",
+    "customPrefix": "!",
+    "moderation": {
+      "muteRole": "ROLE_ID_FOR_MUTE_1",
+      "warns": {}
+    }
+  },
+  "YOUR_GUILD_ID_2": {
+    "welcomeChannelId": "CHANNEL_ID_FOR_WELCOME_2",
+    "goodbyeChannelId": null,
+    "logChannelId": "CHANNEL_ID_FOR_LOGS_2",
+    "customPrefix": ".",
+    "moderation": {
+      "muteRole": null,
+      "warns": {}
+    }
+  }
+}

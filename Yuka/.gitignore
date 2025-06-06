@@ -1,0 +1,41 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+.env
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+.env.*
+!.env.example # Jika Anda punya file .env.example, ini akan tetap diunggah
+
+# Dependencies (jika tidak berada di node_modules)
+/deps/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs
+.idea/             # IntelliJ IDEA
+.vscode/           # VS Code
+*.iml              # IntelliJ IDEA
+*.project          # Eclipse
+*.settings/        # Eclipse
+.c9/               # Cloud9
+*.sublime-project  # Sublime Text
+*.sublime-workspace# Sublime Text
+
+# Build artifacts
+/dist/
+/build/

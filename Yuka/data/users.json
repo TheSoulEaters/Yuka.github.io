@@ -1,0 +1,18 @@
+{
+  "YOUR_USER_ID_1": {
+    "points": 150,
+    "level": 5,
+    "xp": 320,
+    "lastDailyClaim": "2025-06-05T10:00:00Z",
+    "warnings": 0,
+    "customSetting": "value1"
+  },
+  "YOUR_USER_ID_2": {
+    "points": 75,
+    "level": 3,
+    "xp": 180,
+    "lastDailyClaim": null,
+    "warnings": 2,
+    "customSetting": "value2"
+  }
+}

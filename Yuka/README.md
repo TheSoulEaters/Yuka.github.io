@@ -110,19 +110,23 @@ Bot Anda sekarang seharusnya online dan siap digunakan\!
 
 ## Penggunaan
 
-Bot ini mendukung dua jenis perintah:
+**Bot ini mendukung dua jenis perintah**:
 
 ### Perintah Slash (`/`)
 
 Perintah ini akan muncul saat Anda mengetik `/` di saluran Discord.
 
+```README
   * `/ping`: Menguji latensi bot.
   * `/help`: Menampilkan daftar perintah yang tersedia.
   * `/kick <user>`: Mengeluarkan anggota dari server (membutuhkan izin).
   * `/ban <user>`: Memblokir anggota dari server (membutuhkan izin).
   * `/meme`: Mengirimkan meme acak.
+```
 
 ### Perintah Prefiks (`!`)
+
+```README
 
 Perintah ini digunakan dengan menambahkan prefiks `!` di awal pesan Anda.
 
@@ -132,10 +136,11 @@ Perintah ini digunakan dengan menambahkan prefiks `!` di awal pesan Anda.
   * `!resume`: Melanjutkan pemutaran musik.
   * `!skip`: Melewatkan lagu yang sedang diputar.
 
------
+```
 
 ## Kontribusi
 
+```README
 Kami sangat menghargai kontribusi Anda\! Jika Anda ingin berkontribusi, silakan:
 
 1.  *Fork* repository ini.
@@ -144,8 +149,7 @@ Kami sangat menghargai kontribusi Anda\! Jika Anda ingin berkontribusi, silakan:
 4.  *Commit* perubahan Anda (`git commit -m 'Add some AmazingFeature'`).
 5.  *Push* ke branch (`git push origin feature/AmazingFeature`).
 6.  Buka *Pull Request*.
-
------
+```
 
 ## Lisensi
 
@@ -155,6 +159,7 @@ Proyek ini dilisensikan di bawah Lisensi MIT - lihat file [LICENSE](https://www.
 
 ## Kontak
 
+
 Jika Anda memiliki pertanyaan atau masalah, jangan ragu untuk menghubungi:
 
   * **[Nama Anda/Discord Handle Anda]** - Discord: `@username` atau **[Nama Anda di Discord\#XXXX]**
@@ -162,8 +167,5 @@ Jika Anda memiliki pertanyaan atau masalah, jangan ragu untuk menghubungi:
 
 Proyek Link: [https://github.com/username/your-discord-bot](https://www.google.com/search?q=https://github.com/username/your-discord-bot) *(Ganti dengan link GitHub Anda)*
 
------
 
 Anda bisa menyalin teks ini dan menyimpannya sebagai `README.md` di root direktori proyek Anda. Ingatlah untuk mengganti *placeholder* seperti `Nama Bot Discord Anda`, `YOUR_BOT_TOKEN_HERE`, `username`, `emailanda@example.com`, dan ID Discord Anda.
-
-Apakah ada bagian lain dari dokumentasi yang ingin Anda tambahkan atau sesuaikan?
