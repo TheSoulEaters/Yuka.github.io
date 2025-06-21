@@ -1,0 +1,39 @@
+# ==============================================================================
+# File: requirements.txt
+# Deskripsi: Daftar dependensi Python untuk proyek bot Discord "Yuka".
+#            Pustaka ini adalah kebutuhan inti untuk fungsionalitas yang dibahas
+#            (Bot Discord dasar, Slash Commands, Pemutar Musik).
+# ==============================================================================
+
+# --- Core Bot Functionality & Discord Interaction ---
+# Pustaka utama untuk berinteraksi dengan Discord API.
+# Versi 2.x ke atas diperlukan untuk Slash Commands dan fitur-fitur modern.
+# Pastikan Anda menggunakan Python 3.8+ untuk Discord.py v2.
+discord.py==2.5.2
+
+# --- Voice / Audio Playback (untuk Pemutar Musik) ---
+# Diperlukan oleh discord.py untuk fungsionalitas suara.
+# Ini adalah binding Python untuk NaCl (Networking and Cryptography Library),
+# yang digunakan untuk enkripsi dan dekripsi komunikasi suara.
+PyNaCl==1.5.0
+
+# Untuk mengunduh informasi dan URL stream dari YouTube dan situs video/audio lainnya.
+# yt-dlp adalah fork dari youtube-dl yang lebih aktif dan direkomendasikan.
+# PENTING: Membutuhkan instalasi FFmpeg di sistem Anda dan harus dapat diakses dari PATH.
+# Unduh FFmpeg dari https://ffmpeg.org/download.html dan tambahkan ke Environment Variables.
+yt-dlp==2025.06.09
+
+# --- Environment Variables Management ---
+# Untuk memuat variabel lingkungan (seperti token bot, kunci API) dari file .env.
+# Ini adalah praktik keamanan yang sangat direkomendasikan untuk menjaga kredensial sensitif
+# terpisah dari kode sumber dan tidak diunggah ke repositori publik (misalnya GitHub).
+python-dotenv==1.1.0
+
+
+
+# ==============================================================================
+# PENTING:
+# Pastikan Anda menginstal FFmpeg di sistem operasi Anda. Ini adalah perangkat lunak
+# eksternal yang TIDAK diinstal oleh pip, tetapi MUTLAK diperlukan agar bot dapat
+# memutar audio. Tanpa FFmpeg, fitur pemutar musik tidak akan berfungsi.
+# ==============================================================================
